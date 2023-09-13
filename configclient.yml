@@ -1,4 +1,4 @@
 server:
   port: 3001
 info:
-  data: config01
+  data: config02
