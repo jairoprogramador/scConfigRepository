@@ -2,7 +2,7 @@ server:
   port: 0
 
 info:
-  data: config04
+  data: config05
 
 spring:
   cloud:
