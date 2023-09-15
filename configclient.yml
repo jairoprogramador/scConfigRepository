@@ -1,4 +1,22 @@
 server:
-  port: 3001
+  port: 0
 info:
   data: config02
+
+spring:
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
+    stream:
+      kafka:
+        binder:
+          defaultBrokerPort: 39092
+          brokers: localhost
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
